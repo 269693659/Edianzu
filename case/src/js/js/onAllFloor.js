@@ -21,7 +21,7 @@ $(document).ready(function () {
 			if($(e.currentTarget).attr("class") == "aclick"){
 				var id=$(e.currentTarget).attr("data-id")
 			
-				location.href = "../html/detail.html?"+id
+				location.href = "../html/datail-floor.html?"+id
 			}
 			
 		}

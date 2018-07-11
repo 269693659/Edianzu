@@ -8,7 +8,7 @@ $.ajax({
 		for(var i=0;i<data.length;i++){
 			
 				arr[i]=`
-	<div class="main floor-box${i+1}">
+	<div class="main floor-box${i+1} jumpF">
 		<h4><i></i> <span>${data[i][0].title}</span></h4>
 		<div class="floor" >
 			<div class="fl"><a href="" class="aclick"><img src="${data[i][0].bigimg}"></a></div>

@@ -1,27 +1,30 @@
 function Payment(){
 	this.allPrice=$(".allPrice")
 	this.tab=$("#tab")
+	this.arr=[];
 	this.init()
 }
 $.extend(Payment.prototype,{
 	init:function(){
 		this.getdata()
+		
 		this.checked()
 		this.onCount()
 		this.ondel()
 	},
 	getdata:function(){
 		$.ajax({
-			url:"../js/product.json",
+			url:"../js/floor2.json",
 			dataType:'json',
 			async:false,
 
 			success:$.proxy(this.handleGetdata,this)
 		})
 	},
+	
 	handleGetdata:function(data){
 		var data=data.hot;
-		var arr=[];
+		
 		for(var key in localStorage){
 			for(var i in data){
 				if(key==data[i].id){
@@ -45,11 +48,11 @@ $.extend(Payment.prototype,{
 							<p><a href="javascript:;">加到我的关注</a></p>
 						</td>
 					</tr>`
-					arr.push(str)
+					this.arr.push(str)
 				}
 			}
 		}
-		this.tab.html(this.tab.html()+arr.join(''))
+		this.tab.html(this.tab.html()+this.arr.join(''))
 
 	},
 	checked:function(){

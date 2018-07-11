@@ -10,7 +10,7 @@ header("Access-Control-Allow-Origin:*");
 
 	$db_name="db_1802";
 
-	$conn = new mysqli($db_hostname,$db_username,$db_password,$db_name);
+	$conn = new mysqli($db_hostname,$db_username,$db_password,$db_name,3306);
 
 	if($conn->connect_error){
 		die("连接失败".$conn->connect_error);

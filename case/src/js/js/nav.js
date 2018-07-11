@@ -55,7 +55,7 @@ Nav.content=`
 		</h3>
 		<ul class="fr">
 			
-			<li><a href="http://localhost/case/src/html/_index.html" class="head-nav">首页</a></li>
+			<li><a href="http://localhost/Edianzu/case/src/html/_index.html" class="head-nav">首页</a></li>
 			<li><a href="">限量特惠</a></li>
 			<li><a href="">我要短租</a></li>
 			<li><a href="">增值服务</a></li>

@@ -632,3 +632,27 @@
 	}
 
 }
+#floorBtn{
+	height: 288px;
+	
+	
+	position: fixed;
+	top: 20%;
+	left: 30px;
+	display: none;
+	li{
+		text-align: center;
+		font-size: 14px;
+		height: 40px;
+		width: 44px;
+		border:1px solid #e9ebed;
+		line-height: 40px;
+		background: #fff
+
+	}
+	li.bgcolor{
+		background: #37a3ff;
+		color:#fff;
+		border:1px solid #37a3ff;
+	}
+}

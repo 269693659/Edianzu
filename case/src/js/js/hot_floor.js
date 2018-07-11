@@ -7,7 +7,7 @@ $.ajax({
 		var data=data.hot;
 
 		$("#hotFloor").append($("<div></div>")).append(`
-		<div class="main content">
+		<div class="main content jumpF">
 		<h4><i></i> <span>${data[0].h5}</span></h4>
 		<div class="contentC" >
 			<div class="fl"><img src="${data[0].bigimg}"></div>
