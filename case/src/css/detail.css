@@ -1,0 +1,55 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dt, dd, img, a, p, span, h1, h2, h3, h4, h5, h6, form, table, input, b { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; font-size: 12px; color: #666; }
+
+body { color: #333; font-size: 12px; font-family: "微软雅黑"; }
+
+img { border: 0; }
+
+input, button { outline: none; }
+
+input::placeholder { color: #ccc; }
+
+b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+i, em { font-style: normal; }
+
+.clearfix:after { content: ""; height: 0; font-size: 0; clear: both; overflow: hidden; visibility: hidden; display: block; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.main { width: 1200px; margin: 0 auto; }
+
+/*.detail{border:1px solid #f5f5f5;}*/
+.magnifying { border: 1px solid #f5f5f5; width: 420px; height: 480px; position: relative; }
+.magnifying .mid { width: 380px; height: 380px; margin: 0 auto; position: relative; border-bottom: 1px solid #f5f5f5; }
+.magnifying .mid img { width: 100%; }
+.magnifying .min { width: 420px; height: 100px; }
+.magnifying .min img { float: left; width: 80px; margin: 10px 0px 10px 20px; border: 1px solid #fff; }
+.magnifying .max { width: 380px; height: 380px; background: red; position: absolute; border: 1px solid #f5f5f5; left: 430px; top: 0px; overflow: hidden; display: none; }
+.magnifying .max img { width: 760px; position: absolute; }
+
+#filter { width: 190px; height: 190px; position: absolute; top: 0; display: none; background: rgba(55, 163, 255, 0.4); }
+
+.carMassage ul { padding: 20px; box-sizing: border-box; width: 730px; }
+.carMassage ul li:nth-child(2) span:nth-child(1) { background: #e33a3c; color: #fff; display: inline-block; width: 40px; height: 20px; text-align: center; }
+.carMassage ul li:nth-child(2) span:nth-child(2) { color: #e33a3c; font-weight: bold; font-size: 20px; }
+.carMassage ul li { margin-top: 20px; font-size: 14px; }
+.carMassage ul li hr { border: 0; background-color: #ccc; height: 1px; }
+.carMassage ul li [type="text"] { width: 60px; height: 32px; text-align: center; line-height: 28px; font-size: 20px; border: 1px solid #fff; border-bottom-color: #dbdbdb; border-top-color: #dbdbdb; box-sizing: border-box; }
+.carMassage ul li b { font-size: 24px; color: #e33a3c; font-weight: bold; }
+
+.addcar a, .lookcar a { display: inline-block; height: 36px; line-height: 36px; background: #37a3ff; color: #fff; font-size: 18px; text-align: center; border-radius: 3px; padding: 0 16px; margin-right: 16px; }
+.addcar a:active, .lookcar a:active { background: #1388ec; color: #fff; }
+
+.jorj button { width: 32px; height: 32px; line-height: 28px; font-size: 20px; background: #eee; border: 1px solid #dbdbdb; }
+
+.lookcar a { background: #e33a3c; }
+.lookcar a:active { background: #d11012; }
+
+/*# sourceMappingURL=detail.css.map */

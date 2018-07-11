@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dt, dd, img, a, p, span, h1, h2, h3, h4, h5, h6, form, table, input, b { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+a { text-decoration: none; font-size: 12px; color: #666; }
+
+body { color: #333; font-size: 12px; font-family: "微软雅黑"; }
+
+img { border: 0; }
+
+input, button { outline: none; }
+
+input::placeholder { color: #ccc; }
+
+b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+i, em { font-style: normal; }
+
+.clearfix:after { content: ""; height: 0; font-size: 0; clear: both; overflow: hidden; visibility: hidden; display: block; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.main { width: 1200px; margin: 0 auto; }
+
+#header { height: 74px; background: #fff; line-height: 74px; }
+#header img { margin-top: 10px; }
+#header .head-nav li { margin: 0 30px; float: left; }
+#header .head-nav li a { font-size: 16px; line-height: 40px; padding-bottom: 2px; }
+#header .head-nav li a:hover { color: #37a3ff; border-bottom: 2px solid #37a3ff; }
+#header .textStyle { color: #37a3ff; border-bottom: 2px solid #37a3ff; }
+
+.login-banner { height: 680px; background: url(../img/register-banner.jpg) no-repeat center; }
+
+#login { width: 430px; height: 510px; background: #fff; position: absolute; top: 150px; left: 200px; border-radius: 5px; overflow: hidden; }
+#login .l_top { background: #f5f5f5; height: 53px; width: 100%; line-height: 53px; padding-left: 20px; }
+#login .l_top div { font-size: 18px; }
+#login .l_top i { margin-left: 160px; }
+#login .l_top i a { color: #37a3ff; text-decoration: underline; }
+#login .l_bottom { width: 100%; padding-left: 20px; height: 400px; }
+#login .l_bottom li:nth-child(1) span { letter-spacing: 13px; }
+#login .l_bottom li:nth-child(2) span { letter-spacing: 4px; }
+#login .l_bottom li { width: 380px; height: 40px; margin-top: 30px; border: 1px solid #e9ebed; line-height: 40px; }
+#login .l_bottom li span { width: 104px; margin-left: 10px; display: inline-block; font-size: 14px; }
+#login .l_bottom li button { width: 100%; height: 100%; background: #37a3ff; border: 0; font-size: 16px; color: #fff; }
+#login .l_bottom li input { width: 249px; height: 38px; border: 0; }
+#login .l_bottom li p { line-height: 30px; }
+#login .l_bottom li p a { letter-spacing: 0; color: #ef0019; }
+#login .l_bottom li p i { display: inline-block; width: 12px; height: 12px; margin-right: 10px; }
+#login .l_bottom li p i img { width: 100%; }
+
+.l_deal { margin: 30px 0 30px 4px; }
+
+.deal { color: #37a3ff; }
+
+/*# sourceMappingURL=login.css.map */

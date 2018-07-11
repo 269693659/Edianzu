@@ -1,0 +1,118 @@
+@import "base.scss";
+#header{
+	height: 74px;
+	background: #fff;
+	line-height: 74px;
+	img{margin-top: 10px;}
+	
+	.head-nav{
+			li{
+				margin:0 30px;
+				float: left;
+				a{
+					font-size: $fontS16;
+					line-height: 40px;
+					padding-bottom: 2px;
+					&:hover{
+						color:$mcolor;
+						border-bottom: 2px solid $mcolor;
+					}
+				}
+			}
+		}
+	.textStyle{
+		color:$mcolor;
+		border-bottom: 2px solid $mcolor;
+	}
+}
+.register-banner{
+	height: 680px;
+	background: url(../img/login-banner.jpg) no-repeat center;
+}
+
+
+#register{
+	width: 370px;
+	height: 414px;
+	background: #fff;
+	position: absolute;
+	top: 150px;
+	right: 200px;
+	border-radius: 5px;
+	overflow: hidden;
+
+	.l_top{
+		background: #f5f5f5;
+		height:53px ;
+		width: 100%;
+		line-height: 53px;
+		font-size: 18px;
+		padding-left:20px;
+		
+		
+	}
+	.l_bottom{
+		width: 100%;
+		padding-left:20px;
+		height: 400px;
+		
+		li{
+			width: 320px;
+			height: 40px;
+			margin-top: 30px;
+			border: 1px solid #e9ebed;
+			line-height: 40px;
+			span{
+				width: 104px;
+				margin-left: 10px;
+				display: inline-block;
+				font-size: 14px;
+			}
+			.btn{
+				width: 100%;
+				height: 100%;
+				background:  $mcolor;
+				border: 0;
+				font-size: 16px;
+				color: #fff;
+			}
+			input{
+				padding-left:20px;
+				width: 290px;
+				height: 38px;
+				border: 0;
+
+			}
+
+
+		}
+		p{
+			margin:26px 0 0 80px;
+			a{
+				font-size:14px;
+				letter-spacing: 2px;
+			}
+			span{
+				padding:14px;
+			}
+			a:hover{color:$mcolor;}
+
+		}
+
+		.code{
+			width: 320px;
+			border:0;
+			input{
+				width:170px;
+				border: 1px solid #e9ebed;
+			}
+			button{
+				width:108px;
+				height:38px;
+				border-color:#fff;
+				letter-spacing: 5px;
+				font-size:18px;
+			}
+		}
+	}
+}

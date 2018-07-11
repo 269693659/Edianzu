@@ -1,0 +1,41 @@
+@charset "UTF-8";
+html,body,ul,li,ol,dl,dt,dd,img,a,p,span,h1,h2,h3,h4,h5,h6,form,table,input,b{margin:0;padding:0}
+li{list-style: none;}
+a{text-decoration: none;font-size: 12px;color:#666;}
+body{color: #333;font-size: 12px;font-family: "微软雅黑";}
+img{border: 0;}
+input,button{outline: none;}
+input::placeholder{color:#ccc;}
+b,strong,h1,h2,h3,h4,h5,h6{font-weight: normal;}
+i,em{font-style: normal;}
+.clearfix:after{content: "";height: 0;font-size: 0;clear: both;overflow: hidden;visibility: hidden;display: block;}
+.fl{float: left;}
+.fr{float: right;}
+
+.main{width: 1200px;margin:0 auto;}
+$price_c:#ff5784;
+$title_c:#333333;
+$pricetxt:18px;
+$smenuSiz:18px;
+$fontS16:16px;
+$mcolor:#37a3ff;
+$firstF:#bc63ff;
+$conBorder:#ededed;
+$aF:#63bcff;
+$bF:#75d368;
+$cF:#fbb52b;
+$dF:#f88830;
+$eF:#f65162;
+
+
+@function margin($parentw,$num,$childW){
+	
+	@if($parentw>$num*$childW){
+		@return ($parentw - $num*$childW)/($num - 1);
+
+	}@else{
+		@return 0;
+	}
+
+}
+
