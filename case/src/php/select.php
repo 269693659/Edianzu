@@ -22,7 +22,8 @@
 		if($data["password"] == $pwd){
 			echo json_encode(array(
 				"status"=>1,
-				"info"=>"成功"
+				"info"=>"成功",
+				"username"=>$uname
 			));
 		}else{
 			echo json_encode(array(

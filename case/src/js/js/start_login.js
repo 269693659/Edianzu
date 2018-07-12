@@ -129,7 +129,7 @@ $.extend(StartLogin.prototype,{
 		
 		if(data.status==1){
 			alert("注册成功");
-			location.href="http://localhost/case/src/html/register.html";
+			location.href="../html/register.html";
 
 		}else{
 			alert("注册失败");

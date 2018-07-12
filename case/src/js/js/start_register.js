@@ -31,7 +31,9 @@ $.extend(StartRegister.prototype,{
 	slectSQL:function(data){
 		if(data.status==1){
 			alert("登录成功");
-			location.href="http://localhost/case/src/html/_index.html";
+			
+			document.cookie="username="+data.username+";path=/;expires=3"
+			location.href="../html/_index.html";
 		}else if(data.status==0){
 			alert("用户名不存在");
 		}else{
